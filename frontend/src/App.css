@@ -1,0 +1,95 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #666;
+}
+
+.add-product-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.add-product-form input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.add-product-form button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-product-form button:hover {
+  background: #0056b3;
+}
+
+.products-list {
+  margin-top: 20px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.product-quantity {
+  color: #666;
+}
+
+.product-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.product-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.increase-btn {
+  background: #28a745;
+  color: white;
+}
+
+.decrease-btn {
+  background: #ffc107;
+  color: black;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
